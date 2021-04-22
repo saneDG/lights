@@ -128,4 +128,28 @@ img {
     font-weight: 600;
     font-size: 1.4rem;
 }
+
+@media only screen and (max-width: 1100px) {
+    .light-name {
+        margin: 3rem 0;
+    }
+    .light-container {
+        width: 160px;
+        margin: 10% 0;
+    }
+    img {
+        width: 50%;
+    }
+    .light-off:hover {
+        background: transparent;
+    }
+    .light-on {
+        background: radial-gradient(
+            circle,
+            rgba(233, 220, 64, 0.7511379551820728) 7%,
+            rgba(242, 231, 95, 0.5466561624649859) 15%,
+            rgba(255, 255, 255, 0) 45%
+        );
+    }
+}
 </style>

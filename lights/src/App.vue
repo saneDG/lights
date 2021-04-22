@@ -75,6 +75,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 html {
     background-color: #2c3e50;
+    height: 100vh;
 }
 #app {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
@@ -87,6 +88,13 @@ html {
 .lights {
     display: flex;
     justify-content: space-around;
-    margin: 30vh 0;
+    margin: 20vh 0 0 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .lights {
+        flex-wrap: wrap;
+        margin: 10vh 0;
+    }
 }
 </style>

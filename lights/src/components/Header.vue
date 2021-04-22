@@ -1,5 +1,7 @@
 <template>
-    <div class="header">{{ title }}</div>
+    <div class="header">
+        <h3>{{ title }}</h3>
+    </div>
 </template>
 
 <script>
@@ -15,6 +17,9 @@ export default {
 <style scoped>
 h3 {
     margin: 40px 0 0;
+    font-size: 3rem;
+    font-weight: 100;
+    color: whitesmoke;
 }
 ul {
     list-style-type: none;
